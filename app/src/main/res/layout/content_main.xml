@@ -13,7 +13,14 @@
     tools:showIn="@layout/activity_main">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:text="Hello"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:textSize="64sp"
+        android:background="#2bcebb"
+        android:gravity="center" />
+
 </RelativeLayout>
